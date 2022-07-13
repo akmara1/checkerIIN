@@ -6,7 +6,7 @@ const regExp = /^[10]\d{13}$/
 
 button.addEventListener("click", () => {
     if(regExp.test(input.value)){
-        result.innerHTML = "ok"
+        result.innerHTML = "Ok"
         result.style.color = "green"
     }else{
         result.innerHTML = "NOT ok"
